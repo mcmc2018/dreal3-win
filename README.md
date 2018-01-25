@@ -1,15 +1,16 @@
 # dreal3-win
 dReal solver v3.17 on Win10 Msys/MinGW-w64
 
+More info:
 https://github.com/dreal/dreal3
 
 0.Install Required Toolchain
 
-Msys2/MinGW-w64
+Msys2/MinGW-w64:
 
 http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe
 
-Code::Blocks
+Code::Blocks:
 
 http://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12-setup.exe
 
