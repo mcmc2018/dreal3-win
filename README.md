@@ -1,9 +1,7 @@
 # dreal3-win
-dReal solver v3 on Win10 by Msys/MinGW-w64
+dReal solver v3.17 on Win10 Msys/MinGW-w64
 
 https://github.com/dreal/dreal3
-
-Build from Source
 
 0.Install Required Toolchain
 
@@ -40,3 +38,16 @@ Bulid:
 Load the codeblocks projcets file in src/dreal/dreal.cbp
 
 Build it.
+
+3.Binaries Usage
+
+Download and upzip dreal-3.17-mingw-w64-bin.zip
+
+Run run.cmd
+
+dreal smt2\nra\01.smt2
+
+dreal smt2\nra\02.smt2
+
+......
+
