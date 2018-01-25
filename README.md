@@ -1,3 +1,42 @@
 # dreal3-win
 dReal solver v3 on Win10 by Msys/MinGW-w64
+
 https://github.com/dreal/dreal3
+
+Build from Source
+
+0.Install Required Toolchain
+
+Msys2/MinGW-w64
+
+http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe
+
+Code::Blocks
+
+http://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12-setup.exe
+
+1.Build Required Third Party Libraries
+
+https://github.com/dreal-deps/ibex-lib
+
+Patching:
+
+https://github.com/ibex-team/ibex-lib/issues/306
+
+Update:
+
+The Waf build system is too old , need update to 1.9.1
+
+https://waf.io/
+
+Bulid:
+
+/usr/bin/python2 ./waf configure --enable-shared --with-optim --with-affine --with-filib
+
+/usr/bin/python2 ./waf install
+
+2.Build dReal3 on Code::Blocks
+
+Load the codeblocks projcets file in src/dreal/dreal.cbp
+
+Build it.
