@@ -52,7 +52,7 @@ Bulid:
 
 3.Build dReal3 on Code::Blocks
 
-Load the codeblocks projcets file in src/dreal/dreal.cbp
+Load the codeblocks projcets file from src/dreal/dreal.cbp
 
 Build it.
 
