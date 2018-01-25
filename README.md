@@ -4,7 +4,23 @@ dReal solver v3.17 on Win10 Msys/MinGW-w64
 More info:
 https://github.com/dreal/dreal3
 
-0.Install Required Toolchain
+
+Binaries Usage:
+
+Download and unzip dreal-3.17-mingw-w64-bin.zip
+
+Run run.cmd
+
+dreal smt2\nra\01.smt2
+
+dreal smt2\nra\02.smt2
+
+......
+
+
+Build from source：
+
+1.Install Required Toolchain
 
 Msys2/MinGW-w64:
 
@@ -14,7 +30,7 @@ Code::Blocks:
 
 http://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12-setup.exe
 
-1.Build Required Third Party Libraries
+2.Build Required Third Party Libraries
 
 https://github.com/dreal-deps/ibex-lib
 
@@ -34,21 +50,9 @@ Bulid:
 
 /usr/bin/python2 ./waf install
 
-2.Build dReal3 on Code::Blocks
+3.Build dReal3 on Code::Blocks
 
 Load the codeblocks projcets file in src/dreal/dreal.cbp
 
 Build it.
-
-3.Binaries Usage
-
-Download and upzip dreal-3.17-mingw-w64-bin.zip
-
-Run run.cmd
-
-dreal smt2\nra\01.smt2
-
-dreal smt2\nra\02.smt2
-
-......
 
